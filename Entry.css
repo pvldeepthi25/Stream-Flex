@@ -1,0 +1,43 @@
+.body{
+  background: radial-gradient(circle at center, #3d4148 0%, #1e2124 100%);
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+     display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; 
+
+}
+.box{
+     width: 300px; 
+     height: 320px;        /* Sets the width of the box */       /* Space between content and border */
+    border: 2px solid #192230; /* A visible border */
+    margin: 10px;         /* Space outside the border */
+    background-color: #676d73; /* Background color */
+    box-sizing: border-box;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden; /* Clips the overflowing pseudo-element edges */
+    
+     background:linear-gradient(45deg, #676d73 20%, transparent 50%),linear-gradient(225deg, #676d73 20%, transparent 50%),linear-gradient(135deg, #676d73 20%, transparent 50%),linear-gradient(315deg, #676d73 20%, transparent 50%),aliceblue;
+}
+.box h4{
+    margin-top: -10px;
+}
+.box h3{
+    font-size: 30px;
+}
+.box button{ 
+    margin-top: -20px;
+  background-color: #d6d8d5;
+}
+.box button:hover{
+    border-color: #14152b;
+  transform: scale(1.1);
+}
